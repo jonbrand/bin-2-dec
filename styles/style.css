@@ -9,7 +9,7 @@
 html {
     /*** Cores ***/
     --background: #181818;
-    --white: #fcfcfc;
+    --white: #ffffff;
     --grey: #313131;
     font-size: 62.5%; /* 10px */
 }
@@ -24,7 +24,16 @@ body {
     align-items: center;
     justify-content: center;
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.bg {
+    background-image: url("/images/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    flex: 1;
 }
 
 div.container {
@@ -36,7 +45,7 @@ div.container {
     
     border-style:  solid;
     border-radius: 5px;
-    border-width: 10px;
+    border-width: 0;
 
     padding: 50px;
     width: 50%;

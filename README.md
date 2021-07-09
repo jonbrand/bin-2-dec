@@ -28,6 +28,6 @@ App made for the challenge [App Ideas](https://github.com/florinpop17/app-ideas)
 
 ## Tasks
 
-- [] Criar tela com input;
+- [x] Criar tela com input;
 - [] Criar função que converte números binarios para decimais;
 
