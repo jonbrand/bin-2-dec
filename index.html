@@ -5,27 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bin2Dec</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section>
+    <div class="container">
         <h1>Bin2Dec</h1>
-
-        <div>
-            <h2>Converta um número binário para decimal</h2>
-            
-            <div class="input">
-                <h3>Binário</h3>
-                <input type="checbox"/>
-            </div>
-
-            <div class="display">
-                <h3>Decimal</h3>
-                <p>1</p>
-            </div>
+        <h2>Converta seu número binário em decimal</h2>
+        
+        <div class="input">
+            <h3>Binário</h3>
+            <input type="text" id="text-input" onchange="convert()" placeholder="Insira o número binário" />
         </div>
-        <footer>
+
+        <div class="display">
+            <h3>Decimal</h3>
+            <input type="text" id="d-input" readonly>
+        </div>
+
+        <div class="button">
+            <input type="button" value="Converter" onclick="convert()"
+        </div>
+
+        <div class="script">
+            <script src="scripts/main.js"></script>
+        </div>
+    </div>
+    <footer>
+        <p>
             made by Jonatas Brandão
-        </footer>
-    </section>
+        </p>
+    </footer>
 </body>
 </html>
