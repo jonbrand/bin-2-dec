@@ -22,27 +22,25 @@
         <h2>Converta seu número binário em decimal</h2>
         
         <div class="input">
-            <h3>Binário</h3>
-            <input type="text" id="text-input" onchange="convert()" placeholder="Insira o número binário" />
+            <h3>Decimal</h3>
+            <input id="decInput" type="text" placeholder="Insira o número binário" />
         </div>
 
         <div class="display">
-            <h3>Decimal</h3>
-            <input type="text" id="d-input" readonly>
+            <h3>Binário</h3>
+            <input type="text" id="binInput" readonly>
         </div>
 
-        <div class="button">
-            <input type="button" value="Converter" onclick="convert()"
-        </div>
+        <button onclick="convert()">Converter</button>
 
-        <div class="script">
-            <script src="scripts/main.js"></script>
-        </div>
     </div>
     <footer>
         <p>
             made by Jonatas Brandão
         </p>
     </footer>
+
+    <script src="scripts/main.js"></script>
+
 </body>
 </html>
