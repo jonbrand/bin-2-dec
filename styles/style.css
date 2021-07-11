@@ -11,6 +11,7 @@ html {
     --background: #181818;
     --white: #ffffff;
     --grey: #313131;
+    --green: #17e484;
     font-size: 62.5%; /* 10px */
 }
 
@@ -77,6 +78,8 @@ div.container h3 {
 
     font-weight: regular;
     font-size: 2.4rem;
+
+    color: var(--green);
 }
 
 div.container input[type=text] {
@@ -115,9 +118,9 @@ button {
     font-size: 1.8rem;
 }
 
-body, footer {
+body, footer a {
     font-weight: light;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 1.5rem;
 
     color: var(--white);

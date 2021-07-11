@@ -14,20 +14,12 @@ This challenge requires that the developer implementing it follow these constrai
 
 ## User Stories
 
--   [] User can enter up to 8 binary digits in one input field
--   [] User must be notified if anything other than a 0 or 1 was entered
--   [] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
-
-## Bonus features
-
--   [] User can enter a variable number of binary digits
+-   [x] User can enter up to 8 binary digits in one input field
+-   [x] User must be notified if anything other than a 0 or 1 was entered
+-   [x] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
 
 ## Link 
 
 App made for the challenge [App Ideas](https://github.com/florinpop17/app-ideas)
 
-## Tasks
-
-- [x] Criar tela com input;
-- [] Criar função que converte números binarios para decimais;
 
