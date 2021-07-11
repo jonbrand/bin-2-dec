@@ -30,7 +30,6 @@ This challenge requires that the developer implementing it follow these constrai
   <img src=".github/icons-html-5.svg" alt="HTML5" tittle="HTML5" width="50" height="50">
   <img src=".github/icons-css3.svg" alt="CSS3" tittle="CSS3" width="50" height="50">
   <img src=".github/icon-javascript.svg" alt="JavaScript" width="50" height="50">
-  <img src=".github/icons-nodejs.svg" alt="Node.js" width="50" height="50">
 </p>
 
 ## 🔗 Link 
